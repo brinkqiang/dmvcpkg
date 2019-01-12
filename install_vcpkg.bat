@@ -6,4 +6,6 @@ pushd vcpkg
 call bootstrap-vcpkg.bat
 vcpkg integrate remove
 vcpkg integrate install
+vcpkg integrate project
+vcpkg integrate powershell
 popd
