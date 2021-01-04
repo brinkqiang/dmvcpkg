@@ -1,3 +1,5 @@
+#!/bin/bash
+
 git clone --recursive -v https://github.com/Microsoft/vcpkg.git
 pushd vcpkg
 ./bootstrap-vcpkg.sh
