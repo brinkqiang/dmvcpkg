@@ -9,4 +9,4 @@
 
 # 3. build
 
-## 3.1. windows 首次 右键管理员权限运行
+## 3.1. windows 首次 install_vcpkg.bat 右键管理员权限运行
