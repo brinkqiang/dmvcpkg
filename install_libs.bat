@@ -6,3 +6,5 @@ pushd vcpkg
 vcpkg install boost:x64-windows-static
 ::vcpkg export boost:x64-windows-static --7zip
 popd
+
+pause
