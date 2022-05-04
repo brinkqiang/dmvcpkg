@@ -8,3 +8,5 @@ install_manifest.txt
 compile_commands.json
 CTestTestfile.cmake
 vcpkg
+/sample/dmspawn/bin
+/sample/dmspawn/build
