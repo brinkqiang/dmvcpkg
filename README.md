@@ -20,3 +20,6 @@
 # 4. build
 
 ## 4.1. windows 首次 install_vcpkg.bat 右键管理员权限运行
+
+# 5. test
+## 5.1 run sample/dmspawn/build.bat|sh
