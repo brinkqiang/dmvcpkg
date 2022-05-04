@@ -19,8 +19,8 @@
 rm -rf build
 mkdir build
 pushd build
-cmake -DCMAKE_BUILD_TYPE=relwithdebinfo ..
-cmake --build .
+cmake -DCMAKE_BUILD_TYPE=relwithdebinfo -DVCPKG_TARGET_TRIPLET=x64-windows-static ..
+cmake --build . --config relwithdebinfo -- -j$(nproc)
 popd
 
 # popd
