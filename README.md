@@ -23,3 +23,7 @@
 
 # 5. test
 ## 5.1 run sample/dmspawn/build.bat|sh
+## 5.2 mod sample/dmspawn/CMakeLists.txt
+```
+    SET(CMAKE_TOOLCHAIN_FILE "${CMAKE_CURRENT_SOURCE_DIR}/../../../dmvcpkg/vcpkg/scripts/buildsystems/vcpkg.cmake")
+```
