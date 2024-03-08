@@ -7,7 +7,7 @@
 
 ## 2.2. cmake version >= v3.22.2 https://github.com/Kitware/CMake/releases/download/v3.22.2/cmake-3.22.2-windows-i386.zip
 
-## 2.3. powshell version >= v7.2.1  https://github.com/PowerShell/PowerShell/releases/download/v7.2.1/PowerShell-7.2.1-win-x86.zip
+## 2.3. powshell version >= 7.4.1  https://github.com/PowerShell/PowerShell/releases/download/v7.4.1/PowerShell-7.4.1-win-x64.msi
 
 ## 2.4. 7z version >= v21.7.0 https://www.7-zip.org/a/7z2107-extra.7z
 
