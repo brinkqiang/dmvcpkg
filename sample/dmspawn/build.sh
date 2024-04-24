@@ -19,7 +19,7 @@
 rm -rf build
 mkdir build
 pushd build
-cmake -DCMAKE_BUILD_TYPE=relwithdebinfo -DVCPKG_TARGET_TRIPLET=x64-windows-static ..
+cmake -DCMAKE_BUILD_TYPE=relwithdebinfo -DCMAKE_TOOLCHAIN_FILE=${VCPKG_ROOT}/scripts/buildsystems/vcpkg.cmake -DVCPKG_TARGET_TRIPLET=x64-windows-static ..
 cmake --build . --config relwithdebinfo -- -j$(nproc)
 popd
 
