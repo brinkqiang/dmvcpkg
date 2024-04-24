@@ -26,4 +26,4 @@ function add_or_replace_permanent_env_var() {
 
 # 示例：添加或替换两个永久环境变量
 
-add_or_replace_permanent_env_var "VCPKG_ROOT" "$(pwd)"
+add_or_replace_permanent_env_var "VCPKG_ROOT" "$(pwd)/vcpkg"
