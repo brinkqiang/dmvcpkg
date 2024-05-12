@@ -23,7 +23,10 @@ Copyright (c) 2013-2018 brinkqiang (brink.qiang@gmail.com)
 
 ## Intro
 dmspawn
-```cpp
+
+install dependencies:
+```
+vcpkg install
 ```
 ## Contacts
 [![Join the chat](https://badges.gitter.im/brinkqiang/dmspawn/Lobby.svg)](https://gitter.im/brinkqiang/dmspawn)
