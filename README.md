@@ -30,3 +30,7 @@
 ```
     SET(CMAKE_TOOLCHAIN_FILE "${CMAKE_CURRENT_SOURCE_DIR}/../../../dmvcpkg/vcpkg/scripts/buildsystems/vcpkg.cmake")
 ```
+
+# 6. vcpkg.json
+
+https://github.com/microsoft/vcpkg/tree/master/ports
