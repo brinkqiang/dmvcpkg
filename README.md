@@ -34,3 +34,8 @@
 # 6. vcpkg.json
 
 https://github.com/microsoft/vcpkg/tree/master/ports
+
+# 7. 安装指定版本例子
+
+[vcpkg.json](./json/vcpkg.json)
+[vcpkg-configuration.json](./json/vcpkg-configuration.json)
