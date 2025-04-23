@@ -12,10 +12,10 @@
 
 rm -rf build
 mkdir build
-pushd build
+cd build
 cmake -DCMAKE_BUILD_TYPE=relwithdebinfo -DCMAKE_TOOLCHAIN_FILE=${VCPKG_ROOT}/scripts/buildsystems/vcpkg.cmake ..
 cmake --build . --config relwithdebinfo -- -j$(nproc)
-popd
+cd ..
 
 # popd
 
