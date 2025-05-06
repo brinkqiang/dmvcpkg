@@ -49,6 +49,11 @@ cmake --build . --config relwithdebinfo -- -j$(nproc)
 cd ..
 ```
 
+### 其他平台支持
+```
+vcpkg help triplet
+```
+
 ## 📄 配置文件示例
 
 ### vcpkg 官方仓库
