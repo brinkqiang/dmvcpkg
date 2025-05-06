@@ -54,6 +54,104 @@ cd ..
 vcpkg help triplet
 ```
 
+---
+
+### Built-in Triplets
+
+| Triplet 全名          | 架构    | 平台      | 变体       |
+|-----------------------|---------|-----------|------------|
+| arm-neon-android      | arm     | android   | neon       |
+| arm64-android         | arm64   | android   |            |
+| arm64-osx             | arm64   | osx       |            |
+| arm64-uwp             | arm64   | uwp       |            |
+| arm64-windows         | arm64   | windows   |            |
+| x64-android           | x64     | android   |            |
+| x64-linux             | x64     | linux     |            |
+| x64-osx               | x64     | osx       |            |
+| x64-uwp               | x64     | uwp       |            |
+| x64-windows-static    | x64     | windows   | static     |
+| x64-windows           | x64     | windows   |            |
+| x86-windows           | x86     | windows   |            |
+
+---
+
+### Community Triplets
+
+| Triplet 全名                          | 架构         | 平台              | 变体                   |
+|---------------------------------------|--------------|-------------------|------------------------|
+| arm-android                          | arm          | android           |                        |
+| arm-ios                              | arm          | ios               |                        |
+| arm-linux-release                    | arm          | linux             | release                |
+| arm-linux                            | arm          | linux             |                        |
+| arm-mingw-dynamic                    | arm          | mingw             | dynamic                |
+| arm-mingw-static                     | arm          | mingw             | static                 |
+| arm-uwp-static-md                    | arm          | uwp               | static-md              |
+| arm-uwp                              | arm          | uwp               |                        |
+| arm-windows-static                   | arm          | windows           | static                 |
+| arm-windows                          | arm          | windows           |                        |
+| arm64-ios-release                    | arm64        | ios               | release                |
+| arm64-ios-simulator-release          | arm64        | ios               | simulator-release      |
+| arm64-ios-simulator                  | arm64        | ios               | simulator              |
+| arm64-ios                            | arm64        | ios               |                        |
+| arm64-linux-release                  | arm64        | linux             | release                |
+| arm64-linux                          | arm64        | linux             |                        |
+| arm64-mingw-dynamic                  | arm64        | mingw             | dynamic                |
+| arm64-mingw-static                   | arm64        | mingw             | static                 |
+| arm64-osx-dynamic                    | arm64        | osx               | dynamic                |
+| arm64-osx-release                    | arm64        | osx               | release                |
+| arm64-uwp-static-md                  | arm64        | uwp               | static-md              |
+| arm64-windows-static-md              | arm64        | windows           | static-md              |
+| arm64-windows-static-release         | arm64        | windows           | static-release         |
+| arm64-windows-static                 | arm64        | windows           | static                 |
+| arm64ec-windows                      | arm64ec      | windows           |                        |
+| armv6-android                        | armv6        | android           |                        |
+| loongarch32-linux-release           | loongarch32  | linux             | release                |
+| loongarch32-linux                    | loongarch32  | linux             |                        |
+| loongarch64-linux-release           | loongarch64  | linux             | release                |
+| loongarch64-linux                    | loongarch64  | linux             |                        |
+| mips64-linux                         | mips64       | linux             |                        |
+| ppc64le-linux-release                | ppc64le      | linux             | release                |
+| ppc64le-linux                        | ppc64le      | linux             |                        |
+| riscv32-linux-release               | riscv32      | linux             | release                |
+| riscv32-linux                        | riscv32      | linux             |                        |
+| riscv64-linux-release               | riscv64      | linux             | release                |
+| riscv64-linux                        | riscv64      | linux             |                        |
+| s390x-linux-release                  | s390x        | linux             | release                |
+| s390x-linux                          | s390x        | linux             |                        |
+| wasm32-emscripten                    | wasm32       | emscripten        |                        |
+| x64-freebsd                          | x64          | freebsd           |                        |
+| x64-ios                              | x64          | ios               |                        |
+| x64-linux-dynamic                    | x64          | linux             | dynamic                |
+| x64-linux-release                    | x64          | linux             | release                |
+| x64-mingw-dynamic                    | x64          | mingw             | dynamic                |
+| x64-mingw-static                     | x64          | mingw             | static                 |
+| x64-openbsd                          | x64          | openbsd           |                        |
+| x64-osx-dynamic                      | x64          | osx               | dynamic                |
+| x64-osx-release                      | x64          | osx               | release                |
+| x64-uwp-static-md                    | x64          | uwp               | static-md              |
+| x64-windows-release                  | x64          | windows           | release                |
+| x64-windows-static-md-release       | x64          | windows           | static-md-release      |
+| x64-windows-static-md                | x64          | windows           | static-md              |
+| x64-windows-static-release          | x64          | windows           | static-release         |
+| x64-xbox-scarlett-static             | x64          | xbox-scarlett     | static                 |
+| x64-xbox-scarlett                    | x64          | xbox-scarlett     |                        |
+| x64-xbox-xboxone-static              | x64          | xbox-xboxone      | static                 |
+| x64-xbox-xboxone                     | x64          | xbox-xboxone      |                        |
+| x86-android                          | x86          | android           |                        |
+| x86-freebsd                          | x86          | freebsd           |                        |
+| x86-ios                              | x86          | ios               |                        |
+| x86-linux                            | x86          | linux             |                        |
+| x86-mingw-dynamic                    | x86          | mingw             | dynamic                |
+| x86-mingw-static                     | x86          | mingw             | static                 |
+| x86-uwp-static-md                    | x86          | uwp               | static-md              |
+| x86-uwp                              | x86          | uwp               |                        |
+| x86-windows-static-md                | x86          | windows           | static-md              |
+| x86-windows-static                   | x86          | windows           | static                 |
+| x86-windows-v120                     | x86          | windows           | v120                   |
+
+---
+
+
 ## 📄 配置文件示例
 
 ### vcpkg 官方仓库
