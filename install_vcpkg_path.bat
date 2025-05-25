@@ -1,7 +1,10 @@
-@echo off
+cd %~dp0
+set CURRENT_DIR=%~dp0
+set CURRENT_FILE=%~dp0dmpath.exe
 
-chcp 65001 > nul
+echo CURRENT_DIR: %CURRENT_DIR%
+echo CURRENT_FILE: %CURRENT_FILE%
 
-setx VCPKG_ROOT "%~dp0vcpkg" /m
+dmpath.exe --addpath=%CURRENT_DIR%vcpkg
 
 pause
