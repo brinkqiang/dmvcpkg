@@ -161,6 +161,14 @@ https://github.com/microsoft/vcpkg/tree/master/ports
 - [vcpkg.json](./json/vcpkg.json)
 - [vcpkg-configuration.json](./json/vcpkg-configuration.json)
 
+### 版本控制命令
+先添加 vcpkg.json文件 再执行
+```
+vcpkg x-update-baseline --add-initial-baseline
+vcpkg install 
+```
+
+
 ## ⚠️ 注意事项
 1. 所有批处理文件需以管理员权限运行
 2. 确保系统已安装最新版 git

@@ -3,7 +3,8 @@
   "dependencies": [
     {
       "name": "fmt",
-      "platform": "(windows & x64) | (linux & x64) | (osx & x64)"      
+      "platform": "(windows & x64) | (linux & x64) | (osx & x64)"
     }
-  ]
+  ],
+  "builtin-baseline": "8f54ef5453e7e76ff01e15988bf243e7247c5eb5"
 }
