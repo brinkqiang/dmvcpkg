@@ -6,5 +6,5 @@ echo CURRENT_DIR: %CURRENT_DIR%
 echo CURRENT_FILE: %CURRENT_FILE%
 
 dmpath.exe --addpath=%CURRENT_DIR%vcpkg
-
+setx VCPKG_ROOT %CURRENT_DIR%vcpkg /m
 pause
